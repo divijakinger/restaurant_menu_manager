@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Products
+        </title>
+        <link rel="stylesheet" href="products.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="heading-text">
+            <h1 class="products-heading">
+                Products
+            </h1>  
+        </div>
+
+        <!-- Appetizers -->
+        <div class="sects appetizers">
+            <h1 class="sect-head" >
+                Appetizers
+            </h1> 
+            <div class="smallcontainer">
+                <div class="row row-cols-4">
+                    <div class="col4" id="cat_col_1">
+                        <img src="images/appimage1.jpeg" class="img-cat">
+                        <h4 id="catname1">Garlic Bread</h4>
+                        <p id="catdesc1">Tosted french bread topped with romano cheddar, parmesan with a light layer of roasted garlic.</p>
+                        <button type="submit" class="btn btn-primary" id="1" onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_1" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_2">
+                        <img src="images/appimage2.jpeg" class="img-cat">
+                        <h4 id="catname2">Stuffed Mushroom</h4>
+                        <p id="catdesc2">Mushroom cpas baked with filling of three cheese choices breadcrumbs and clams</p>
+                        <button type="button" class="btn btn-primary" id="2" onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_2" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_3">
+                        <img src="images/appimage3.jpeg" class="img-cat">
+                        <h4 id="catname3">Onion Rings</h4>
+                        <p id="catdesc3">Onions friend with parmesan and cheddar served with hot sauce and creamy topping </p>
+                        <button type="button" class="btn btn-primary"  id="3"  onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_3" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_4">
+                        <img src="images/appimage4.jpeg" class="img-cat">
+                        <h4 id="catname4">Fried Calamari </h4>
+                        <p id="catdesc4">Breaded Calamari, lightly fried in canola oil. Served with a side of marinara  </p>
+                        <button type="button" class="btn btn-primary"  id="4"  onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_4" onclick="delFunction(this.id)">Delete</button>                  
+                    </div>  
+                </div>
+            </div>                     
+        </div>
+
+        <!-- Pizza -->
+
+        <div class="sects pizza">
+            <h1 class="sect-head" >
+                Pizza
+            </h1> 
+            <div class="smallcontainer">
+                <div class="row row-cols-4">
+                    <div class="col4" id="cat_col_5">
+                        <img src="images/pizzaimage1.jpeg" class="img-cat">
+                        <h4 id="catname5">Caprese</h4>
+                        <p id="catdesc5">Semi soft, rindless buffalo mozzarella cheese balls, tomato, fresh basil and capers.</p>
+                        <button type="submit" class="btn btn-primary" id="5" onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_5" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_6">
+                        <img src="images/pizzaimage2.jpeg" class="img-cat">
+                        <h4 id="catname6">Pesto</h4>
+                        <p id="catdesc6">Basil pesto, sun-dried tomato, american corn, red bell peppers,olives and feta.</p>
+                        <button type="button" class="btn btn-primary" id="6" onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_6" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_7">
+                        <img src="images/pizzaimage3.jpeg" class="img-cat">
+                        <h4 id="catname7">Primavera</h4>
+                        <p id="catdesc7">Fresh broccoli, babycorn, mushroom and peppers</p>
+                        <button type="button" class="btn btn-primary"  id="7"  onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_7" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_8">
+                        <img src="images/pizzaimage4.jpeg" class="img-cat">
+                        <h4 id="catname8">Quattro Formaggio </h4>
+                        <p id="catdesc8">Classical, inviting, teeth-sinking, four cheese pizza</p>
+                        <button type="button" class="btn btn-primary"  id="8"  onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_8" onclick="delFunction(this.id)">Delete</button>                  
+                    </div>
+                </div>
+            </div>                     
+        </div>
+
+        <!-- Starters -->
+
+        <div class="sects appetizers">
+            <h1 class="sect-head" >
+                Starters
+            </h1> 
+            <div class="smallcontainer">
+                <div class="row row-cols-4">
+                    <div class="col4" id="cat_col_9">
+                        <img src="images/startersimage1.jpg" class="img-cat">
+                        <h4 id="catname9">Cheese Wadas</h4>
+                        <p id="catdesc9">Khas puneri, cheese-stuffed baby batata wadas served with lip smacking thecha mayo.</p>
+                        <button type="submit" class="btn btn-primary" id="9" onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_9" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_10">
+                        <img src="images/startersimage2.jpeg" class="img-cat">
+                        <h4 id="catname10">Nachos</h4>
+                        <p id="catdesc10">Popular northern mexican tortilla chips with refried beans, cheese sauce and salsa</p>
+                        <button type="button" class="btn btn-primary" id="10" onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_10" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_11">
+                        <img src="images/startersimage3.jpeg" class="img-cat">
+                        <h4 id="catname11">Potato Skins</h4>
+                        <p id="catdesc11">Crispy, cheese potato halves topped with refried beans, scallion, refreshing salsa and sour cream</p>
+                        <button type="button" class="btn btn-primary"  id="11"  onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_11" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_12">
+                        <img src="images/appimage4.jpeg" class="img-cat">
+                        <h4 id="catname12">Mozzarella Fritters</h4>
+                        <p id="catdesc12">Crunchy baby corn and bell peppers wok-tossed with sichuan peppers with chilli olives</p>
+                        <button type="button" class="btn btn-primary"  id="12"  onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_12" onclick="delFunction(this.id)">Delete</button>                  
+                    </div>  
+                </div>
+            </div>                     
+        </div>
+
+        <!-- Fries -->
+
+                <div class="sects pizza">
+                    <h1 class="sect-head" >
+                        Fries
+                    </h1> 
+                    <div class="smallcontainer">
+                        <div class="row row-cols-4">
+                            <div class="col4" id="cat_col_13">
+                                <img src="images/friesimage1.jpeg" class="img-cat">
+                                <h4 id="catname13">House Fries</h4>
+                                <p id="catdesc13">Traditional potato finger chips served with sauces</p>
+                                <button type="submit" class="btn btn-primary" id="13" onclick="myFunction(this.id)">Edit</button>
+                                <button type="button" class="btn btn-danger" id="_13" onclick="delFunction(this.id)">Delete</button>
+                            </div>
+                            <div class="col4" id="cat_col_14">
+                                <img src="images/friesimage2.jpeg" class="img-cat">
+                                <h4 id="catname14">Cheese Fries</h4>
+                                <p id="catdesc14">Potato finger chips layered with cheese</p>
+                                <button type="button" class="btn btn-primary" id="14" onclick="myFunction(this.id)">Edit</button>
+                                <button type="button" class="btn btn-danger" id="_14" onclick="delFunction(this.id)">Delete</button>
+                            </div>
+                            <div class="col4" id="cat_col_15">
+                                <img src="images/friesimage3.jpeg" class="img-cat">
+                                <h4 id="catname15">Tex Mex Fries</h4>
+                                <p id="catdesc15">Topped with refried beans, jalapenos and cheese sauce </p>
+                                <button type="button" class="btn btn-primary"  id="15"  onclick="myFunction(this.id)">Edit</button>
+                                <button type="button" class="btn btn-danger" id="_15" onclick="delFunction(this.id)">Delete</button>
+                            </div>
+                            <div class="col4" id="cat_col_16">
+                                <img src="images/friesimage4.jpeg" class="img-cat">
+                                <h4 id="catname16">Loaded Fries</h4>
+                                <p id="catdesc16">Bacon, cheese sauce and sour cream </p>
+                                <button type="button" class="btn btn-primary"  id="16"  onclick="myFunction(this.id)">Edit</button>
+                                <button type="button" class="btn btn-danger" id="_16" onclick="delFunction(this.id)">Delete</button>                  
+                            </div>
+                        </div>
+                    </div>                     
+                </div>
+         <!-- Salads -->
+         <div class="sects appetizers">
+            <h1 class="sect-head" >
+                Salads
+            </h1> 
+            <div class="smallcontainer">
+                <div class="row row-cols-4">
+                    <div class="col4" id="cat_col_17">
+                        <img src="images/saladimage1.jpeg" class="img-cat">
+                        <h4 id="catname17">Grilled Tabbouleh</h4>
+                        <p id="catdesc17">It is originally from the mountains between syria and lebanon.</p>
+                        <button type="submit" class="btn btn-primary" id="17" onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_17" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_18">
+                        <img src="images/saladimage2.jpeg" class="img-cat">
+                        <h4 id="catname18">Farro Wheat Salad</h4>
+                        <p id="catdesc18">Farro is the ancient whole-grain derived from wheat</p>
+                        <button type="button" class="btn btn-primary" id="18" onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_18" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_19">
+                        <img src="images/saladimage3.jpeg" class="img-cat">
+                        <h4 id="catname19">Roast beet Salad</h4>
+                        <p id="catdesc19">Incredibly sweet oven roasted beets and pumpkin </p>
+                        <button type="button" class="btn btn-primary"  id="19"  onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_19" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_20">
+                        <img src="images/saladimage4.jpeg" class="img-cat">
+                        <h4 id="catname20">Shish Fattoush</h4>
+                        <p id="catdesc20">A levantine middle estern salad, originally from syria</p>
+                        <button type="button" class="btn btn-primary"  id="20"  onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_20" onclick="delFunction(this.id)">Delete</button>                  
+                    </div>  
+                </div>
+            </div>                     
+        </div>
+
+        <!-- Pasta -->
+
+        <div class="sects pizza">
+            <h1 class="sect-head" >
+                Pasta
+            </h1> 
+            <div class="smallcontainer">
+                <div class="row row-cols-4">
+                    <div class="col4" id="cat_col_21">
+                        <img src="images/pastaimage1.jpeg" class="img-cat">
+                        <h4 id="catname21">Spaghetti Aglio Olio</h4>
+                        <p id="catdesc21">TSpaghetti tossed with garlic, chilli flakes and herbsfrom the bustling corners of naples
+                            .</p>
+                        <button type="submit" class="btn btn-primary" id="21" onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_21" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_22">
+                        <img src="images/pastaimage2.jpeg" class="img-cat">
+                        <h4 id="catname22">Mushroom Melange</h4>
+                        <p id="catdesc22">Spaghetti topped with a stroganoff of button and shitake mushrooms in olive oil</p>
+                        <button type="button" class="btn btn-primary" id="22" onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_22" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_23">
+                        <img src="images/pastaimage3.jpeg" class="img-cat">
+                        <h4 id="catname23">Penne Arrabiata</h4>
+                        <p id="catdesc23">Penne with chicken in a hot, hearty and chunky tomato sauce with fresh basil, peppers and red wine</p>
+                        <button type="button" class="btn btn-primary"  id="23"  onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_23" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_24">
+                        <img src="images/pastaimage4.jpeg" class="img-cat">
+                        <h4 id="catname24">Penne Macheleria</h4>
+                        <p id="catdesc24">Penne, ham, bacon, and sausages in a smoked scarmoza tomato cream made in olive oil</p>
+                        <button type="button" class="btn btn-primary"  id="24"  onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_24" onclick="delFunction(this.id)">Delete</button>                  
+                    </div>
+                </div>
+            </div>                     
+        </div>
+
+        <!-- Drinks -->
+
+        <div class="sects appetizers">
+            <h1 class="sect-head" >
+                Drinks
+            </h1> 
+            <div class="smallcontainer">
+                <div class="row row-cols-4">
+                    <div class="col4" id="cat_col_25">
+                        <img src="images/drinks1.jpeg" class="img-cat">
+                        <h4 id="catname25">Cosmopolitan</h4>
+                        <p id="catdesc25">Vodka, orange liqueur, cranberry and lime juice.</p>
+                        <button type="submit" class="btn btn-primary" id="25" onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_25" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_26">
+                        <img src="images/drinks2.jpeg" class="img-cat">
+                        <h4 id="catname26">Cuba Libre</h4>
+                        <p id="catdesc26">Cuban rum, lime wedges topped with cola</p>
+                        <button type="button" class="btn btn-primary" id="26" onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_26" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_27">
+                        <img src="images/drinks3.jpeg" class="img-cat">
+                        <h4 id="catname27">Whiskey Ginger Ale</h4>
+                        <p id="catdesc27">Scotch whiskey topped with ginger ale</p>
+                        <button type="button" class="btn btn-primary"  id="27"  onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_27" onclick="delFunction(this.id)">Delete</button>
+                    </div>
+                    <div class="col4" id="cat_col_28">
+                        <img src="images/drinks4.jpeg" class="img-cat">
+                        <h4 id="catname28">Moscow Mule</h4>
+                        <p id="catdesc28">Vodka, ginger ale and lime juice with fresh lime</p>
+                        <button type="button" class="btn btn-primary"  id="28"  onclick="myFunction(this.id)">Edit</button>
+                        <button type="button" class="btn btn-danger" id="_28" onclick="delFunction(this.id)">Delete</button>                  
+                    </div>  
+                </div>
+            </div>                     
+        </div>
+
+        <!-- Desserts -->
+
+                <div class="sects pizza">
+                    <h1 class="sect-head" >
+                        Desserts
+                    </h1> 
+                    <div class="smallcontainer">
+                        <div class="row row-cols-4">
+                            <div class="col4" id="cat_col_29">
+                                <img src="images/dessertimage1.jpeg" class="img-cat">
+                                <h4 id="catname29">Apple Pie</h4>
+                                <p id="catdesc29">Mouth watering Apple pie which will be a party for your taste buds</p>
+                                <button type="submit" class="btn btn-primary" id="29" onclick="myFunction(this.id)">Edit</button>
+                                <button type="button" class="btn btn-danger" id="_29" onclick="delFunction(this.id)">Delete</button>
+                            </div>
+                            <div class="col4" id="cat_col_30">
+                                <img src="images/dessertimage2.jpeg" class="img-cat">
+                                <h4 id="catname30">Lemon Tart</h4>
+                                <p id="catdesc30">This consists of a sweet lemony tinge to your palette</p>
+                                <button type="button" class="btn btn-primary" id="30" onclick="myFunction(this.id)">Edit</button>
+                                <button type="button" class="btn btn-danger" id="_30" onclick="delFunction(this.id)">Delete</button>
+                            </div>
+                            <div class="col4" id="cat_col_31">
+                                <img src="images/dessertimage3.jpeg" class="img-cat">
+                                <h4 id="catname31">Fudge Brownies</h4>
+                                <p id="catdesc31">These brownies are pure chocolate overload, perfect for any mood</p>
+                                <button type="button" class="btn btn-primary"  id="31"  onclick="myFunction(this.id)">Edit</button>
+                                <button type="button" class="btn btn-danger" id="_31" onclick="delFunction(this.id)">Delete</button>
+                            </div>
+                            <div class="col4" id="cat_col_32">
+                                <img src="images/dessertimage4.jpeg" class="img-cat">
+                                <h4 id="catname32">Coffee Truffle</h4>
+                                <p id="catdesc32">The creamy center with that quintessential kick of caffeine</p>
+                                <button type="button" class="btn btn-primary"  id="32"  onclick="myFunction(this.id)">Edit</button>
+                                <button type="button" class="btn btn-danger" id="_32" onclick="delFunction(this.id)">Delete</button>                  
+                            </div>
+                        </div>
+                    </div>                     
+                </div>
+        <script src="script.js"></script>   
+    </body>
+</html>

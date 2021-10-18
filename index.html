@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Restaurant Menu Manager
+        </title>
+        <link rel="stylesheet" href="style.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>        
+        <div class="landing-body" id="main_body">
+            <video autoplay muted loop id="myVideo" class="myVid">
+                <source src="videos/bg-video.mp4" type="video/mp4">
+              </video>
+            
+            <nav class="navbar">
+                <a class="navbar-brand" href="#main_body">
+                  <img class="img-icon" src="https://cdn2.iconfinder.com/data/icons/wedding-hand-drawn-icons/64/wedding_21-256.png" width="30" height="30" class="d-inline-block align-top fs-1" alt="">
+                  Restaurant
+                </a>
+                <div class="nav-items "> 
+                    <a class="navbar-brand nav-text fs-2 " href="#categories">
+                        Categories
+                    </a>
+                    <a class="navbar-brand nav-text fs-2 " href="products.html">
+                        Products
+                    </a>                    
+                </div>       
+            </nav>
+            <div class="landing-text">
+                <h1 >
+                    Welcome
+                </h1>
+            </div>
+            
+        </div>
+
+        <div class="categories-1" id="categories">
+            <div class="heading">
+                <h1 class="cat-text">Categories</h1>         
+            </div>           
+        </div>
+        
+        <div class="smallcontainer">
+            <div class="row row-cols-4">
+                <div class="col4" id="cat_col_1">
+                    <img src="images/image1.jpeg" class="img-cat">
+                    <h4 id="catname1">Appetizers</h4>
+                    <p id="catdesc1">We have an assorted collected of delicious Appetizers</p>
+                    <button type="submit" class="btn btn-primary" id="1" onclick="myFunction(this.id)">Edit</button>
+                    <button type="button" class="btn btn-secondary" id="_1" onclick="delFunction(this.id)">Delete</button>
+                </div>
+                <div class="col4" id="cat_col_2">
+                    <img src="images/image2.jpeg" class="img-cat">
+                    <h4 id="catname2">Pizza</h4>
+                    <p id="catdesc2">Authentic Italian Pizzas with all kinds of toppings</p>
+                    <button type="button" class="btn btn-primary" id="2" onclick="myFunction(this.id)">Edit</button>
+                    <button type="button" class="btn btn-secondary" id="_2" onclick="delFunction(this.id)">Delete</button>
+                </div>
+                <div class="col4" id="cat_col_3">
+                    <img src="images/image3.jpeg" class="img-cat">
+                    <h4 id="catname3">Starters</h4>
+                    <p id="catdesc3">Our starter collection consists of more than a 30 varieties of dishes</p>
+                    <button type="button" class="btn btn-primary"  id="3"  onclick="myFunction(this.id)">Edit</button>
+                    <button type="button" class="btn btn-secondary" id="_3" onclick="delFunction(this.id)">Delete</button>
+                </div>
+                <div class="col4" id="cat_col_4">
+                    <img src="images/image4.jpeg" class="img-cat">
+                    <h4 id="catname4">Fries</h4>
+                    <p id="catdesc4">Grab your favourite fries.</p>
+                    <button type="button" class="btn btn-primary"  id="4"  onclick="myFunction(this.id)">Edit</button>
+                    <button type="button" class="btn btn-secondary" id="_4" onclick="delFunction(this.id)">Delete</button>                  
+                </div>                 
+                <div class="col4" id="cat_col_5">
+                    <img src="images/image5.jpeg" class="img-cat">
+                    <h4 id="catname5">Salads</h4>
+                    <p id="catdesc5">Salads for the side</p>
+                    <button type="button" class="btn btn-primary"  id="5"  onclick="myFunction(this.id)">Edit</button>
+                    <button type="button" class="btn btn-secondary" id="_5" onclick="delFunction(this.id)">Delete</button>
+                </div>
+                <div class="col4" id="cat_col_6">
+                    <img src="images/image6.jpeg" class="img-cat">
+                    <h4 id="catname6">Pasta</h4>
+                    <p id="catdesc6">Pastas available in all sauces</p>
+                    <button type="button" class="btn btn-primary"  id="6" onclick="myFunction(this.id)">Edit</button>
+                    <button type="button" class="btn btn-secondary" id="_6" onclick="delFunction(this.id)">Delete</button>
+                </div>
+                <div class="col4" id="cat_col_7">
+                    <img src="images/image7.jpeg" class="img-cat">
+                    <h4 id="catname7">Drinks</h4>
+                    <p id="catdesc7">Drinks to go with your food</p>
+                    <button type="button" class="btn btn-primary"  id="7" onclick="myFunction(this.id)">Edit</button>
+                    <button type="button" class="btn btn-secondary" id="_7" onclick="delFunction(this.id)">Delete</button>
+                </div>
+                <div class="col4" id="cat_col_8">
+                    <img src="images/image8.jpeg" class="img-cat">
+                    <h4 id="catname8">Desserts</h4>
+                    <p id="catdesc8">Desserts to end your meal with.</p>
+                    <button type="button" class="btn btn-primary" id="8"  onclick="myFunction(this.id)">Edit</button>
+                    <button type="button" class="btn btn-secondary" id="_8" onclick="delFunction(this.id)">Delete</button>
+                    
+                </div>                   
+            </div>
+        </div>
+        
+
+        <script src="script.js"></script>
+        <div class="container my-5">
+
+            <!-- Footer -->
+            <footer
+                    class="text-center text-lg-start text-white"
+                    style="background-color: #5a3116" id="footer"
+                    >
+              <!-- Section: Social media -->
+              <section
+                       class="d-flex justify-content-between p-4"
+                       style="background-color: #000000"
+                       >
+                <!-- Left -->
+                <div class="me-5">
+                  <span>To know more about us</span>
+                </div>
+                <!-- Left -->
+          
+                <!-- Right -->
+                <div>
+                  <a href="" class="text-white me-4">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="" class="text-white me-4">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="" class="text-white me-4">
+                    <i class="fab fa-google"></i>
+                  </a>
+                  <a href="" class="text-white me-4">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="" class="text-white me-4">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a href="" class="text-white me-4">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+                <!-- Right -->
+              </section>
+              <!-- Section: Social media -->
+          
+              <!-- Section: Links  -->
+              <section class="">
+                <div class="container text-center text-md-start mt-5">
+                  <!-- Grid row -->
+                  <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                      <!-- Content -->
+                      <h6 class="text-uppercase fw-bold">Restaurant</h6>
+                      <hr
+                          class="mb-4 mt-0 d-inline-block mx-auto"
+                          style="width: 60px; background-color: #7c4dff; height: 2px"
+                          />
+                      <p>
+                        Our restaurant has all varieties of food.
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+          
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold">Products</h6>
+                      <hr
+                          class="mb-4 mt-0 d-inline-block mx-auto"
+                          style="width: 60px; background-color: #7c4dff; height: 2px"
+                          />
+                      <p>
+                        <a href="#!" class="text-white">Starters</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-white">Main Course</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-white">Drinks</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-white">Desserts</a>
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+          
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold">Useful links</h6>
+                      <hr
+                          class="mb-4 mt-0 d-inline-block mx-auto"
+                          style="width: 60px; background-color: #7c4dff; height: 2px"
+                          />
+                      <p>
+                        <a href="#!" class="text-white">Our Website</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-white">Order Here</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-white">Follow us</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-white">Contact Us</a>
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+          
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold">Contact</h6>
+                      <hr
+                          class="mb-4 mt-0 d-inline-block mx-auto"
+                          style="width: 60px; background-color: #7c4dff; height: 2px"
+                          />
+                      <p><i class="fas fa-home mr-3"></i>Chintaman Pride 12/7,</p>
+                      <p><i class="fas fa-envelope mr-3"></i> City Pride Road,</p>
+                      <p><i class="fas fa-phone mr-3"></i> Pune</p>
+                      <p><i class="fas fa-print mr-3"></i> Maharashtra 411038</p>
+                    </div>
+                    <!-- Grid column -->
+                  </div>
+                  <!-- Grid row -->
+                </div>
+              </section>
+              <!-- Section: Links  -->
+          
+              <!-- Copyright -->
+              <div
+                   class="text-center p-3"
+                   style="background-color: rgba(0, 0, 0, 0.2)"
+                   >
+                © 2021 Copyright
+
+              </div>
+              <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+          
+          </div>
+          <!-- End of .container -->
+        
+          
+        
+    </body>
+</html>

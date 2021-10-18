@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.heading-text{
+    padding-top: 2%;
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(156, 88, 33);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.products-heading{
+    font-size: 10vh;
+    color: azure;
+}
+
+.sects{
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: black;
+    height: 70vh;
+    padding-top: 2%;
+}
+
+.sect-head{
+    font-family: 'Ephesis', cursive;
+}
+.smallcontainer{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 70px;
+    display: block;
+    
+}
+.col4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    transition: transform 0.5s;
+    width: auto;
+
+}
+
+.col4 img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around;    
+}
+
+.col4 p{
+    font-size: 14px;
+}
+
+.col4:hover{
+    transform: translateY(-15px);
+}
+
+.smallcontainer .features{
+    background-color: #f7ebc9;
+}
+
+
+.img-cat{
+    border-radius: 0px 25px 0px 25px;
+    height: 25vh;
+}
+
+.appetizers{
+    background-color:rgb(240, 191, 150) ;
+}
+
+.pizza{
+    background-color:rgb(255, 228, 205) ;
+}
